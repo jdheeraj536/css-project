@@ -30,16 +30,17 @@ span{
     color: #00A5EC;
     font-size: 47px;
     position: relative;
-    left: 73%;
+    left: 60%;
     top: 29px;
 }
 .add1{
     color: black;
     font-size: 24px;
     font-weight: bold;
-    left: 74%;
+    left: 61%;
     position: relative;
     top: 19px;
+    opacity: 0.8;
 }
 .container{
     display: flex;
@@ -64,6 +65,9 @@ span{
     border-radius: 10px;
     margin: 10px;
     cursor: pointer;
+    font-size: 12px;
+    opacity: 0.8;
+    filter: blur(0.4px);
 }
 
 .item:hover{
@@ -81,6 +85,9 @@ span{
     top: 286px;
     right: 880px;
     cursor: pointer;
+    font-size: 12px;
+    opacity: 0.8;
+    filter: blur(0.4px);
 }
 .item1:hover{
     box-shadow: 0px 0px 20px rgba(128, 128, 128, 0.586);
@@ -147,6 +154,7 @@ a{
     left: 241px;
     top: 20px;
     cursor: pointer;
+    filter: blur(0.4px);
 }
 .learn{
     margin-left: 8px;
@@ -155,6 +163,7 @@ a{
     border: 0;
     background-color: #F7F7F7;
     height: 30px;
+    filter: blur(0.5px);
 }
 .pop1{
     margin-left: 20px;
@@ -167,7 +176,7 @@ a{
     top: 0;
     height: 117px;
     background-color: white;
-    filter: brightness(0.5);
+    filter: brightness(0.3);
 }
 .full-background-2{
     background-color: #F7F7F7;
@@ -176,7 +185,7 @@ a{
     right: 0;
     height: 986px;
     top: 116px;
-    filter: brightness(0.5);
+    filter: brightness(0.3);
 }
 
 
@@ -197,6 +206,7 @@ a{
     margin-left: 553px;
     margin-top: 96px;
     box-shadow: 0px 0px 10px #00000057;
+    filter: blur(0.4px);
 }
 .trip2{
     color: #00A5EC;
@@ -218,7 +228,7 @@ a{
 .add2{
     color: black;
     font-size: 17px;
-    left: 597px;
+    left: 610px;
     position: relative;
     top: 175px;
     z-index: +1;
@@ -249,7 +259,7 @@ a{
     right: 0;
     height: 986px;
     top: 116px;
-    filter: brightness(0.5);
+    filter: brightness(0.3);
 }
 .background5{
     position: absolute;
@@ -258,7 +268,7 @@ a{
     top: 0;
     height: 117px;
     background-color: white;
-    filter: brightness(0.5);
+    filter: brightness(0.3);
 }
 .popup1{
     width: 392px;
@@ -269,5 +279,6 @@ a{
     z-index: +1;
     top: 230px;
     border-radius: 15px;
+    filter: blur(0.3px);
 }
 
